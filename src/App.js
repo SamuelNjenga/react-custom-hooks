@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import LocalStorage from "./hooks/set_one/LocalStorage";
+import AsyncComponent from "./hooks/set_three/AsyncComponent";
 import PreviousComponent from "./hooks/set_three/PreviousComponent";
 import StateWithHistoryComponent from "./hooks/set_three/StateWithHistoryComponent";
 import StorageComponent from "./hooks/set_three/StorageComponent";
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/previous" element={<PreviousComponent />} />
           <Route path="/historyState" element={<StateWithHistoryComponent />} />
           <Route path="/stateStorage" element={<StorageComponent />} />
+          <Route path="/async" element={<AsyncComponent />} />
         </Routes>
       </Router>
     </div>
