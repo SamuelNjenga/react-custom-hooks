@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import LocalStorage from "./hooks/set_one/LocalStorage";
+import PreviousComponent from "./hooks/set_three/PreviousComponent";
 import ArrayComponent from "./hooks/set_two/ArrayComponent";
 import DebounceComponent from "./hooks/set_two/DebounceComponent";
 import TimeoutComponent from "./hooks/set_two/TimeoutComponent";
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/debounce" element={<DebounceComponent />} />
           <Route path="/updateEffect" element={<UpdateEffectComponent />} />
           <Route path="/arrays" element={<ArrayComponent />} />
+          <Route path="/previous" element={<PreviousComponent />} />
         </Routes>
       </Router>
     </div>
