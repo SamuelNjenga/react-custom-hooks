@@ -19,6 +19,7 @@ import EventListenerComponent from "./hooks/set_four/EventListenerComponent";
 import OnScreenComponent from "./hooks/set_four/OnScreenComponent";
 import WindowSizeComponent from "./hooks/set_four/WindowSizeComponent";
 import MediaQueryComponent from "./hooks/set_five/MediaQueryComponent";
+import GeolocationComponent from "./hooks/set_five/GeolocationComponent";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/onScreen" element={<OnScreenComponent />} />
           <Route path="/windowSize" element={<WindowSizeComponent />} />
           <Route path="/mediaQuery" element={<MediaQueryComponent />} />
+          <Route path="/geoLocation" element={<GeolocationComponent />} />
         </Routes>
       </Router>
     </div>
