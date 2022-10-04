@@ -14,6 +14,7 @@ import DebounceComponent from "./hooks/set_two/DebounceComponent";
 import TimeoutComponent from "./hooks/set_two/TimeoutComponent";
 import ToggleComponent from "./hooks/set_two/ToggleComponent";
 import UpdateEffectComponent from "./hooks/set_two/UpdateEffectComponent";
+import DeepCompareEffectComponent from "./hooks/set_four/DeepCompareEffectComponent";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/async" element={<AsyncComponent />} />
           <Route path="/fetch" element={<FetchComponent />} />
           <Route path="/script" element={<ScriptComponent />} />
+          <Route path="/deepCompare" element={<DeepCompareEffectComponent />} />
         </Routes>
       </Router>
     </div>
