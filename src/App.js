@@ -18,6 +18,7 @@ import DeepCompareEffectComponent from "./hooks/set_four/DeepCompareEffectCompon
 import EventListenerComponent from "./hooks/set_four/EventListenerComponent";
 import OnScreenComponent from "./hooks/set_four/OnScreenComponent";
 import WindowSizeComponent from "./hooks/set_four/WindowSizeComponent";
+import MediaQueryComponent from "./hooks/set_five/MediaQueryComponent";
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/eventListener" element={<EventListenerComponent />} />
           <Route path="/onScreen" element={<OnScreenComponent />} />
           <Route path="/windowSize" element={<WindowSizeComponent />} />
+          <Route path="/mediaQuery" element={<MediaQueryComponent />} />
         </Routes>
       </Router>
     </div>
