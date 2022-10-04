@@ -20,6 +20,7 @@ import OnScreenComponent from "./hooks/set_four/OnScreenComponent";
 import WindowSizeComponent from "./hooks/set_four/WindowSizeComponent";
 import MediaQueryComponent from "./hooks/set_five/MediaQueryComponent";
 import GeolocationComponent from "./hooks/set_five/GeolocationComponent";
+import StateWithValidationComponent from "./hooks/set_five/StateWithValidationComponent";
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
           <Route path="/windowSize" element={<WindowSizeComponent />} />
           <Route path="/mediaQuery" element={<MediaQueryComponent />} />
           <Route path="/geoLocation" element={<GeolocationComponent />} />
+          <Route path="/validateState" element={<StateWithValidationComponent />} />
         </Routes>
       </Router>
     </div>
