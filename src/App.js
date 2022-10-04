@@ -2,6 +2,7 @@ import React from "react";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import ScriptComponent from "./hooks/set_four/ScriptComponent";
 import LocalStorage from "./hooks/set_one/LocalStorage";
 import AsyncComponent from "./hooks/set_three/AsyncComponent";
 import FetchComponent from "./hooks/set_three/FetchComponent";
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/stateStorage" element={<StorageComponent />} />
           <Route path="/async" element={<AsyncComponent />} />
           <Route path="/fetch" element={<FetchComponent />} />
+          <Route path="/script" element={<ScriptComponent />} />
         </Routes>
       </Router>
     </div>
