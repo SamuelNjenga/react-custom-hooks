@@ -16,6 +16,7 @@ import ToggleComponent from "./hooks/set_two/ToggleComponent";
 import UpdateEffectComponent from "./hooks/set_two/UpdateEffectComponent";
 import DeepCompareEffectComponent from "./hooks/set_four/DeepCompareEffectComponent";
 import EventListenerComponent from "./hooks/set_four/EventListenerComponent";
+import OnScreenComponent from "./hooks/set_four/OnScreenComponent";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/script" element={<ScriptComponent />} />
           <Route path="/deepCompare" element={<DeepCompareEffectComponent />} />
           <Route path="/eventListener" element={<EventListenerComponent />} />
+          <Route path="/onScreen" element={<OnScreenComponent />} />
         </Routes>
       </Router>
     </div>
