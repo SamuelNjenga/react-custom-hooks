@@ -26,6 +26,7 @@ import EffectOnceComponent from "./hooks/set_five/EffectOnceComponent";
 import ClickOutsideComponent from "./hooks/set_six/ClickOutsideComponent";
 import DarkModeComponent from "./hooks/set_six/DarkModeComponent";
 import CopyToClipboardComponent from "./hooks/set_six/CopyToClipboardComponent";
+import CookieComponent from "./hooks/set_six/CookieComponent";
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
           <Route path="/clickOutside" element={<ClickOutsideComponent />} />
           <Route path="/darkMode" element={<DarkModeComponent />} />
           <Route path="/copyClipboard" element={<CopyToClipboardComponent />} />
+          <Route path="/cookie" element={<CookieComponent />} />
         </Routes>
       </Router>
     </div>
