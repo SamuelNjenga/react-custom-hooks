@@ -24,6 +24,7 @@ import StateWithValidationComponent from "./hooks/set_five/StateWithValidationCo
 import SizeComponent from "./hooks/set_five/SizeComponent";
 import EffectOnceComponent from "./hooks/set_five/EffectOnceComponent";
 import ClickOutsideComponent from "./hooks/set_six/ClickOutsideComponent";
+import DarkModeComponent from "./hooks/set_six/DarkModeComponent";
 
 const App = () => {
   return (
@@ -55,6 +56,7 @@ const App = () => {
           <Route path="/size" element={<SizeComponent />} />
           <Route path="/effectOnce" element={<EffectOnceComponent />} />
           <Route path="/clickOutside" element={<ClickOutsideComponent />} />
+          <Route path="/darkMode" element={<DarkModeComponent />} />
         </Routes>
       </Router>
     </div>
