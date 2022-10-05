@@ -23,6 +23,7 @@ import GeolocationComponent from "./hooks/set_five/GeolocationComponent";
 import StateWithValidationComponent from "./hooks/set_five/StateWithValidationComponent";
 import SizeComponent from "./hooks/set_five/SizeComponent";
 import EffectOnceComponent from "./hooks/set_five/EffectOnceComponent";
+import ClickOutsideComponent from "./hooks/set_six/ClickOutsideComponent";
 
 const App = () => {
   return (
@@ -53,6 +54,7 @@ const App = () => {
           />
           <Route path="/size" element={<SizeComponent />} />
           <Route path="/effectOnce" element={<EffectOnceComponent />} />
+          <Route path="/clickOutside" element={<ClickOutsideComponent />} />
         </Routes>
       </Router>
     </div>
