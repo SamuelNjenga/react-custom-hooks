@@ -28,6 +28,11 @@ import DarkModeComponent from "./hooks/set_six/DarkModeComponent";
 import CopyToClipboardComponent from "./hooks/set_six/CopyToClipboardComponent";
 import CookieComponent from "./hooks/set_six/CookieComponent";
 import TranslationComponent from "./hooks/set_six/TranslationComponent";
+import OnlineStatusComponent from "./hooks/set_seven/OnlineStatusComponent";
+import RenderCountComponent from "./hooks/set_seven/RenderCountComponent";
+import DebugInformationComponent from "./hooks/set_seven/DebugInformationComponent";
+import HoverComponent from "./hooks/set_seven/HoverComponent";
+import LongPressComponent from "./hooks/set_seven/LongPressComponent";
 
 const App = () => {
   return (
@@ -63,6 +68,14 @@ const App = () => {
           <Route path="/copyClipboard" element={<CopyToClipboardComponent />} />
           <Route path="/cookie" element={<CookieComponent />} />
           <Route path="/translation" element={<TranslationComponent />} />
+          <Route path="/online" element={<OnlineStatusComponent />} />
+          <Route path="/hover" element={<HoverComponent />} />
+          <Route path="/renderCount" element={<RenderCountComponent />} />
+          <Route path="/longPress" element={<LongPressComponent />} />
+          <Route
+            path="/debugInformation"
+            element={<DebugInformationComponent />}
+          />
         </Routes>
       </Router>
     </div>
